@@ -1,0 +1,30 @@
+@mixin flex-space-between{ 
+    display:flex;
+    justify-content: space-between;
+}
+
+@mixin flex-center-align{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+@mixin flex-flex-end{
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+@mixin secondary-text{
+    color:rgba(153, 153, 153, 1);
+    line-height:1.2;
+}
+
+@mixin button{
+    background-color:$bg-color-buttons;
+    color:$color-white;
+    padding:13px 36px 15px;
+    border-radius: 0.6em;
+    border:none;
+    max-height:45px;
+}
